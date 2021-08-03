@@ -87,7 +87,6 @@ typedef NS_ENUM(NSInteger, FailCode) {
 /**
  * @param ext 自定义参数
 */
-
 -(void)setCallExtension:(NSString *)ext;
 
 /**
