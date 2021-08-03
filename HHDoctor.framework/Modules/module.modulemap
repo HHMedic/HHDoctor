@@ -1,0 +1,6 @@
+framework module HHDoctor {
+  umbrella header "HHDoctor-umbrella.h"
+
+  export *
+  module * { export * }
+}
