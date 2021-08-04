@@ -9,6 +9,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '9.0'
   spec.vendored_frameworks = 'HHDoctor.framework'
   spec.frameworks   = 'UIKit','AVFoundation','Foundation'
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC',
     'ENABLE_BITCODE' => 'NO',
