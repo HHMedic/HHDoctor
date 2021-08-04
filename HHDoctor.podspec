@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'HHDoctor'
-  spec.version      = '1.0.080315'
+  spec.version      = '1.0.180315'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/HHMedic/HHDoctor.git'
   spec.authors      = { "HHMedic" => 'hh_client@hh-medic.com' }
