@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC',
     'ENABLE_BITCODE' => 'NO',
-    'ARCHS' => ['arm64']
+    'ARCHS' => ['arm64', 'x86_64']
   }
 end
