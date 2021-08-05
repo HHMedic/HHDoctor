@@ -8,12 +8,12 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/HHMedic/HHDoctor.git'  }
   spec.platform     = :ios, '9.0'
   spec.vendored_frameworks = 'HHDoctor.framework'
-  spec.frameworks   = 'UIKit','AVFoundation','Foundation'
+  s.public_header_files = 'HHDoctor.framework/Headers/*.h'
+  spec.frameworks   = 'UIKit','AVFoundation','Foundation','Accelerate.framework'
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC',
     'ENABLE_BITCODE' => 'NO',
-    'ARCHS' => ['arm64', 'x86_64']
   }
 end
