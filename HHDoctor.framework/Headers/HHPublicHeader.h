@@ -12,7 +12,9 @@
 
 #define HHTestBaseURL            @"https://test.hh-medic.com/familyapp"
 
-#define HHMedicDetailBaseURL     @"https://e.hh-medic.com"
+#define HHTestMedicDetailBaseURL     @"https://test.hh-medic.com"
+
+#define HHSecMedicDetailBaseURL     @"https://e.hh-medic.com"
 
 
 #define HHFamilyUpload    @"https://sec.hh-medic.com/orderapp/file/file_upload_family"
