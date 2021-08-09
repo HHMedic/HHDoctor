@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'HHDoctor'
-  spec.version      = '3.1.0080919'
+  spec.version      = '3.1.0080920'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'http://www.hh-medic.com'
   spec.authors      = { "HHMedic" => 'hh_client@hh-medic.com' }
@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'HHDoctor.framework'
   spec.frameworks   = 'UIKit','AVFoundation','Foundation'
 
-  s.source_files = 'HHDoctor.framework/Headers/*.*'
-  s.resources = 'HHDoctor.framework/resource/*.*'
+  spec.source_files = 'HHDoctor.framework/Headers/*.*'
+  spec.resources = 'HHDoctor.framework/resource/*.*'
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
