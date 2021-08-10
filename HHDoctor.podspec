@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'HHDoctor'
-  spec.version      = '3.1.0080920'
+  spec.version      = '3.1.0081016'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'http://www.hh-medic.com'
   spec.authors      = { "HHMedic" => 'hh_client@hh-medic.com' }
@@ -20,3 +20,5 @@ Pod::Spec.new do |spec|
     'ENABLE_BITCODE' => 'NO',
   }
 end
+
+
